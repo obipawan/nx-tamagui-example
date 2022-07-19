@@ -1,0 +1,12 @@
+{
+  "version": "0.0.0",
+  "name": "@nx-tamagui-example/config",
+  "main": "src/index.ts",
+  "dependencies": {
+    "@tamagui/font-inter": "1.0.1-beta.113",
+    "@tamagui/shorthands": "1.0.1-beta.113",
+    "@tamagui/theme-base": "1.0.1-beta.113",
+    "@nx-tamagui-example/ui":  "*"
+  },
+  "sideEffects": false
+}

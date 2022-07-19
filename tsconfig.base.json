@@ -1,20 +1,41 @@
 {
-  "compileOnSave": false,
-  "compilerOptions": {
-    "rootDir": ".",
-    "sourceMap": true,
-    "declaration": false,
-    "moduleResolution": "node",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "importHelpers": true,
-    "target": "es2015",
-    "module": "esnext",
-    "lib": ["es2017", "dom"],
-    "skipLibCheck": true,
-    "skipDefaultLibCheck": true,
-    "baseUrl": ".",
-    "paths": {}
-  },
-  "exclude": ["node_modules", "tmp"]
-}
+    "compilerOptions": {
+      "baseUrl": ".",
+      "rootDir": ".",
+      "importHelpers": true,
+      "allowJs": false,
+      "allowSyntheticDefaultImports": true,
+      "downlevelIteration": true,
+      "esModuleInterop": true,
+      "preserveSymlinks": true,
+      "incremental": true,
+      "jsx": "react",
+      "module": "ESNext",
+      "moduleResolution": "node",
+      "noEmitOnError": false,
+      "noImplicitAny": false,
+      "noImplicitReturns": false,
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
+      "experimentalDecorators": true,
+      "useUnknownInCatchVariables": false,
+      "preserveConstEnums": true,
+      "removeComments": true,
+      "skipLibCheck": true,
+      "sourceMap": false,
+      "strict": true,
+      "strictNullChecks": true,
+      "target": "es2019",
+      "types": ["node"],
+      "lib": ["es2021", "dom", "esnext"]
+    },
+    "paths": {
+        "@nx-tamagui-example/config": ["libs/config/src/index.ts"],
+        "@nx-tamagui-example/ui": ["libs/ui/src/index.ts"]
+      },
+    "exclude": ["_"],
+    "typeAcquisition": {
+      "enable": true
+    }
+  }
+  
