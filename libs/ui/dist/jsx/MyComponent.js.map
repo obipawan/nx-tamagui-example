@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../src/MyComponent.tsx"],
-  "sourcesContent": ["import { styled, Text } from 'tamagui'\n\nexport const MyComponent = styled(Text, {\n  name: 'MyComponent',\n  bc: '$blue5Light',\n  fontFamily: '$body',\n  fontSize: '$12'\n})\n"],
-  "mappings": "AAAA;AAEO,MAAM,cAAc,OAAO,MAAM;AAAA,EACtC,MAAM;AAAA,EACN,IAAI;AAAA,EACJ,YAAY;AAAA,EACZ,UAAU;AACZ,CAAC;",
-  "names": []
-}
