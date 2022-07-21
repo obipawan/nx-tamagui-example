@@ -17,4 +17,5 @@ var src_exports = {};
 module.exports = __toCommonJS(src_exports);
 __reExport(src_exports, require("tamagui"), module.exports);
 __reExport(src_exports, require("./MyComponent"), module.exports);
+__reExport(src_exports, require("./App"), module.exports);
 //# sourceMappingURL=index.js.map

@@ -1,7 +1,7 @@
 {
   "version": 3,
   "sources": ["../../src/index.tsx"],
-  "sourcesContent": ["export * from 'tamagui'\nexport * from './MyComponent'\n"],
-  "mappings": ";;;;;;;;;;;;;;;AAAA;AAAA;AAAA,wBAAc,oBAAd;AACA,wBAAc,0BADd;",
+  "sourcesContent": ["export * from 'tamagui'\nexport * from './MyComponent'\nexport * from './App';"],
+  "mappings": ";;;;;;;;;;;;;;;AAAA;AAAA;AAAA,wBAAc,oBAAd;AACA,wBAAc,0BADd;AAEA,wBAAc,kBAFd;",
   "names": []
 }
